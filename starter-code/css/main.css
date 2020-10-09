@@ -4,110 +4,130 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-image: url('../images/bgtile.png');
+  background-image:url('../images/bgtile.png');
+  background-position: 0px -120px;
   background-repeat: repeat-x;
+  position: relative;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  line-height: 35px;
-  color: #06365f;
-}
-p {
-  line-height: 20px;
-}
-li {
-  list-style-type: none;
-  font-size: 15px;
-  padding-right: 20px;
-  float: left;
-  color: #06365f
+/* Frist Image / Phone Instagram / button */
+
+.wrapper{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  margin-top: 50px;
 }
 
-.wrapper {
-  width: 885px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.column-left {
-  width: 350px;
-  float: left;
+.phones{
+  width: 180px;
+  margin-left: 30px;
 }
 
-.column-right {
-  float: left;
-  margin-left: 25px;
+.instagram{
+  width: 180px;
+  margin-left: 30px;
+  margin-top: 5px;
 }
 
-.instagram-logo{
-  width: 350px;
-  float: left;
+.button{
+  margin-top: 20px;
+  margin-left: 85px;
+  height: 24px;
+  background: #3f6d93;
+  box-shadow: #2e6c82;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.login-button {
-  float: left;
-  margin-top: 10px;
+.login-image{
+  height: 15px;
+  margin-top: 2px;
 }
 
-.login-image {
-  float: left;
-  margin: 0 15px;
-}
-
-.login-text {
+.login-text{
+  font-size: 10px;
   color: white;
-  font-size: 19px;
-  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
 }
 
-.button {
-  width: 145px;
-  height: 55px;
-  background-image: linear-gradient(#1c5380, #06365f);
-  border: #06365f 1px solid;
-  border-radius: 5px;
-  outline: none;
-}
+/* Second Content Image / Logos */
 
-.content-wrapper {
-  clear: both;
-  padding: 5px;
-}
-
-.content {
+.wrapper-content{
   background-image: url('../images/frame.png');
   background-repeat: no-repeat;
-  background-size: 500px;
-  padding: 15px;
-  width: 470px;
-}
-
-.app-store-download {
-  float: left;
-  margin-top: 25px;
-  margin-right: 25px;
-}
-
-.google-play-download {
-  margin-top: 25px;
-  float: left;
-}
-
-.footer {
+  background-size: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  position: relative;
+  border-radius: 5px;
   clear: both;
-  clear: both;
-  margin: 0 auto;
-  display: table;
+  margin-left: 270px;
+  margin-top: -230px;
 }
 
-.instagram-footer {
-  float: left;
-  padding-left: 50px;
-  color: rgb(128, 128, 128);
-  padding-bottom: 20px;
+.content{
+  margin-top: 9px;
+  margin-left: 20px;
+  width: 250px;
+  height: 150px;
+}
+
+h1{
+  line-height: 18px;
+  font-size: 14px;
+  color:  #06365f;
+}
+
+p{
+  line-height: 12px;
+  font-size: 8px;
+  margin-left: 2px;
+}
+.app-store{
+  width: 95px;
+  height: 28px;
+  margin-top: 8px;;
+  margin-left: 3px;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+.google-play{
+  width: 95px;
+  height: 28px;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+/*  Fotter Section  */
+
+.footer{
+  margin-top: 100px;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 7px;
+  color: #1c5380;
+  margin-left: 110px;
+}
+
+ul li {
+  float:left; list-style:none;
+  margin-left: 8px;
+}
+
+.instagram-footer{
+  font-weight: normal;
+  color: gray;
+  margin-left:12px;
 }
