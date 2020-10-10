@@ -36,10 +36,10 @@ body{
 .button{
   margin-top: 20px;
   margin-left: 85px;
-  height: 24px;
-  background: #3f6d93;
-  box-shadow: #2e6c82;
-  border: none;
+  height: 22px;
+  background-image: linear-gradient( #16578d 0%, rgb(126, 166, 204) 50%, #3f6d93 0%, rgb(126, 166, 204) 50%);
+  box-shadow: rgb(73,155,234);
+  border: rgb(73,155,234);
   border-radius: 3px;
   display: flex;
   flex-flow: wrap;
@@ -48,15 +48,17 @@ body{
 }
 
 .login-image{
-  height: 15px;
-  margin-top: 2px;
+  height: 11px;
+  margin-top: 6px;
+  color: white;
 }
 
 .login-text{
-  font-size: 10px;
+  font-size: 8px;
+  font-weight: bold;
   color: white;
-  margin-left: 6px;
-  margin-top: 4px;
+  margin-left: 4px;
+  margin-top: 8px;
 }
 
 /* Second Content Image / Logos */
@@ -64,22 +66,21 @@ body{
 .wrapper-content{
   background-image: url('../images/frame.png');
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 305px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   position: relative;
   border-radius: 5px;
-  clear: both;
-  margin-left: 270px;
+  margin-left: 260px;
   margin-top: -230px;
 }
 
 .content{
-  margin-top: 9px;
-  margin-left: 20px;
-  width: 250px;
-  height: 150px;
+  margin-top: 10px;
+  margin-left: 23px;
+  width: 245px;
+  height: 160px;
 }
 
 h1{
@@ -90,21 +91,26 @@ h1{
 
 p{
   line-height: 12px;
-  font-size: 8px;
+  font-size: 9px;
   margin-left: 2px;
+  color: gray;
+  font-weight: bolder;
+
 }
+
 .app-store{
   width: 95px;
   height: 28px;
-  margin-top: 8px;;
+  margin-top: 10px;;
   margin-left: 3px;
   margin-right: 12px;
   border-radius: 5px;
 }
+
 .google-play{
   width: 95px;
   height: 28px;
-  margin-top: 8px;
+  margin-top: 10px;
   border-radius: 5px;
 }
 
@@ -116,18 +122,18 @@ p{
 
 ul {
   font-weight: bold;
-  font-size: 7px;
+  font-size: 6px;
   color: #1c5380;
-  margin-left: 110px;
+  margin-left: 100px;
 }
 
 ul li {
   float:left; list-style:none;
-  margin-left: 8px;
+  margin-left: 12px;
 }
 
 .instagram-footer{
-  font-weight: normal;
-  color: gray;
+  /* font-weight:  */
+  color: lightgray;
   margin-left:12px;
 }
